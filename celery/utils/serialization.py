@@ -23,6 +23,8 @@ try:
 except ImportError:
     import pickle  # noqa
 
+import dill as pickle
+
 PY33 = sys.version_info >= (3, 3)
 
 __all__ = (
